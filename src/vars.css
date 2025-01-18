@@ -1,0 +1,13 @@
+:root{
+    /* colors */
+    --color-text: #4b5563;
+    --color-primary: #576cbc;
+    --color-secondary:#19376d;
+    --color-dark:#0b2447;
+    --color-bg:#FFFFFF;
+    ;
+    
+    /* Fonts */
+    --font-space-grotesk:'Space Grotesk', sans-serif;
+
+}

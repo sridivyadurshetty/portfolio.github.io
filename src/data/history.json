@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Application developer",
+    "organisation": "Infosys Limited, India",
+    "startDate": "Jul 2016",
+    "endDate": "Apr 2022",
+    "experiences": [
+      "Led migration of 14+ SOAP services to REST, enhancing system performance",
+      "Automated build/deployment processes, cutting manual efforts by 85%.",
+      "Developed front-end modules using Struts2, Spring Boot, and Bootstrap.",
+      "Managed a team of 6 developers, improving code quality and deployment efficiency."
+    ],
+    "imageSrc": "history/infosys_round.png"
+  },
+  {
+    "role": "Test Lead",
+    "organisation": "Infosys Limited, India",
+    "startDate": "Feb 2014",
+    "endDate": "Jun 2016",
+    "experiences": [
+      "Created detailed Test Plans and test strategies for multiple projects.",
+      "Conducted UAT, SIT, and load testing, improving defect detection.",
+      "Utilized SoapUI and Parasoft SOA Test for comprehensive testing and defect tracking."
+    ],
+    "imageSrc": "history/infosys_round.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organisation": "Infosys Limited, India",
+    "startDate": "Aug 2013",
+    "endDate": "Jan 2014",
+    "experiences": [
+      "Worked on component library",
+      "Helped create UI components"
+    ],
+    "imageSrc": "history/netflix.png"
+  }
+]

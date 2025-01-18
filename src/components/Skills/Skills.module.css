@@ -1,0 +1,136 @@
+@import "../../vars.css";
+
+.container {
+    color: black;
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+  
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    gap: 12px;
+  }
+  
+  @media (max-width: 960px) {
+    .wrapper {
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .title {
+      margin-top: 12px;
+      font-size: 32px;
+    }
+  }
+  
+  .desc {
+    font-size: 18px;
+    color: var(--text-secondary);
+  }
+  
+  @media (max-width: 768px) {
+    .desc {
+      font-size: 16px;
+    }
+  }
+  
+  .skillsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .skill {
+    width: 100%;
+    max-width: 500px;
+    background: var(--card);
+    border: 0.1px solid #854CE6;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+  }
+  
+  @media (max-width: 768px) {
+    .skill {
+      max-width: 400px;
+      padding: 10px 36px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .skill {
+      max-width: 330px;
+      padding: 10px 36px;
+    }
+  }
+  
+  .skillTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skillList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .skillItem {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background: #e5e7eb;
+    border: 1px solid var(--color-text);
+    border-radius: 12px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .skillItem {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .skillItem {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  
+  .skillImage {
+    width: 24px;
+    height: 24px;
+  }
+  

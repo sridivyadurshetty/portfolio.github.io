@@ -1,0 +1,148 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 75px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.timelineContainer {
+    padding: 10px 55px;
+    position: relative;
+    width: 50%;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.textBox {
+    padding: 20px 30px;
+    background: #e5e7eb;
+    position: relative;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.leftContainer {
+    left: 0;
+}
+
+.rightContainer {
+    left: 50%;
+}
+
+.container img {
+    position: absolute;
+    width: 80px;
+    border-radius: 50%;
+    right: -40px;
+    top: 15px;
+    z-index: 10;
+}
+
+.rightContainer img {
+    left: -40px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #A9A9A9;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    /* z-index: -1; */
+}
+
+.textBox h2 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.textBox small {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.leftContainerArrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #e5e7eb;
+    right: -15px;
+}
+
+.rightContainerArrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #e5e7eb;
+    left: -15px;
+}
+
+
+@media screen and (max-width: 830px) {
+  
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timelineContainer {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .textBox {
+    margin-left: 5px;
+  }
+
+  .textBox small{
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .rightContainer {
+    left: 0;
+  }
+
+  .leftContainer img, .rightContainer img {
+    left: -10px;
+  }
+
+  .leftContainerArrow, .rightContainerArrow {
+    border-right: 15px solid #e5e7eb;
+    border-left: 0;
+    left: -15px;
+  }
+}

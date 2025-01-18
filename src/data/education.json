@@ -1,0 +1,18 @@
+[
+  {
+    "degree": "Master of Science in Computer Science",
+    "institution": "Texas A&M University-Kingsville",
+    "startDate": "Aug 2023",
+    "endDate": "Dec 2024",
+    "location": "Kingsville, TX",
+    "imageSrc": "history/TAMUK.png"
+  },
+  {
+    "degree": "Bachelors in Computer Science and Engineering",
+    "institution": "Jawaharlal Nehru Technological University",
+    "startDate": "Aug 2008",
+    "endDate": "May 2012",
+    "location": "Hyderabad, India",
+    "imageSrc": "history/JNTUH.png"
+  }
+]
